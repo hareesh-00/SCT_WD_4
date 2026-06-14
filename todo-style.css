@@ -1,0 +1,151 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI',sans-serif;
+}
+
+body{
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:#f1f5f9;
+    padding:20px;
+}
+
+.container{
+    width:700px;
+    background:white;
+    padding:30px;
+    border-radius:20px;
+    box-shadow:0 10px 25px rgba(0,0,0,0.1);
+}
+
+h1{
+    text-align:center;
+    margin-bottom:20px;
+    color:#1e293b;
+}
+
+.input-section{
+    display:flex;
+    gap:10px;
+    flex-wrap:wrap;
+    margin-bottom:20px;
+}
+
+.input-section input{
+    padding:12px;
+    border:1px solid #ccc;
+    border-radius:10px;
+}
+
+#taskInput{
+    flex:1;
+}
+
+button{
+    border:none;
+    padding:12px 18px;
+    border-radius:10px;
+    cursor:pointer;
+}
+
+.input-section button{
+    background:#2563eb;
+    color:white;
+}
+
+ul{
+    list-style:none;
+}
+
+li{
+    background:#f8fafc;
+    border-left:5px solid #2563eb;
+    margin-bottom:12px;
+    padding:15px;
+    border-radius:12px;
+}
+
+.task-top{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:10px;
+}
+
+.completed{
+    text-decoration:line-through;
+    color:gray;
+}
+
+.task-info{
+    font-size:14px;
+    color:#64748b;
+    margin-bottom:10px;
+}
+
+.task-buttons{
+    display:flex;
+    gap:10px;
+}
+
+.edit-btn{
+    background:#f59e0b;
+    color:white;
+}
+
+.delete-btn{
+    background:#ef4444;
+    color:white;
+}
+
+.priority{
+    font-weight:bold;
+}
+
+#counter{
+    margin-top:15px;
+    font-weight:bold;
+}
+
+.actions{
+    margin-top:20px;
+    display:flex;
+    gap:10px;
+}
+
+#clearBtn{
+    background:#dc2626;
+    color:white;
+}
+
+#darkBtn{
+    background:#111827;
+    color:white;
+}
+
+.dark{
+    background:#111827;
+}
+
+.dark .container{
+    background:#1f2937;
+    color:white;
+}
+
+.dark li{
+    background:#374151;
+}
+
+.dark .task-info{
+    color:#d1d5db;
+}
+
+.dark input{
+    background:#374151;
+    color:white;
+    border:none;
+}
